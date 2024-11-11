@@ -13,7 +13,7 @@
     <string name="descri_o_do_pesadelo2">Descrição do Pesadelo</string>
     <string name="digite_a_descri_o">Digite a descrição</string>
     <string name="n_vel_de_terror">Nível de Terror</string>
-    <string name="digite_o_n_vel_de_terror_1_10">Digite o nível de terror (1-10)</string>
+    <string name="digite_o_n_vel_de_terror_1_10">Digite o nível de terror (1–10)</string>
     <string name="tags">Tags</string>
     <string name="digite_as_tags_separadas_por_v_rgula">Digite as tags separadas por vírgula</string>
     <string name="inserir_pesadelo2">Inserir Pesadelo</string>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
@@ -15,7 +16,8 @@
         android:text="Título do Pesadelo"
         android:textSize="18sp"
         android:textColor="#FFFFFF"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
 
     <!-- Descrição do pesadelo -->
     <TextView
@@ -24,7 +26,8 @@
         android:layout_height="wrap_content"
         android:text="Descrição do pesadelo..."
         android:textColor="#B0B0B0"
-        android:layout_marginTop="4dp"/>
+        android:layout_marginTop="4dp"
+        tools:ignore="HardcodedText" />
 
     <!-- Nível de terror -->
     <TextView
@@ -33,7 +36,8 @@
         android:layout_height="wrap_content"
         android:text="Nível de Terror: 7"
         android:textColor="#FF5555"
-        android:layout_marginTop="4dp"/>
+        android:layout_marginTop="4dp"
+        tools:ignore="HardcodedText" />
 
     <!-- Tags -->
 
@@ -43,7 +47,8 @@
         android:layout_height="wrap_content"
         android:text="Tags: sonho, assustador"
         android:textColor="#B0B0B0"
-        android:layout_marginTop="4dp"/>
+        android:layout_marginTop="4dp"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/buttonDelete"
@@ -52,6 +57,7 @@
         android:backgroundTint="#E34534"
         android:text="Excluir"
         android:textColorLink="#E34534"
-        android:translationX="200dp" />
+        android:translationX="200dp"
+        tools:ignore="HardcodedText" />
 
 </LinearLayout>
