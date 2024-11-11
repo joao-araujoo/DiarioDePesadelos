@@ -1,3 +1,6 @@
+package com.example.diariodepesadelos
+
+import Nightmare
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
@@ -5,7 +8,6 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.diariodepesadelos.R
 
 class NightmareAdapter(
   private var nightmaresList: List<Nightmare>,
@@ -26,6 +28,7 @@ class NightmareAdapter(
     return nightmaresList.size
   }
 
+  @SuppressLint("NotifyDataSetChanged")
   fun updateData(newList: List<Nightmare>) {
     nightmaresList = newList
     notifyDataSetChanged() // Notificar o adapter sobre a mudança de dados
