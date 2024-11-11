@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DiarioDePesadelos</string>
+    <string name="imagem_de_um_fantasma_decorativo">Imagem de um fantasma decorativo</string>
+    <string name="t_tulo_do_pesadelo">Título do pesadelo</string>
+    <string name="descri_o_do_pesadelo">Descrição do pesadelo</string>
+    <string name="data_dd_mm_aaaa">Data (DD/MM/AAAA)</string>
+    <string name="inserir_pesadelo">Inserir Pesadelo</string>
+    <string name="pesadelos_salvos_aparecer_o_aqui">Pesadelos salvos aparecerão aqui</string>
+    <string name="visualizar_pesadelos">Visualizar Pesadelos</string>
+    <string name="imagem_de_um_fantasma_decorativo2">Imagem de um fantasma decorativo</string>
+    <string name="t_tulo_do_pesadelo2">Título do Pesadelo</string>
+    <string name="digite_o_t_tulo">Digite o título</string>
+    <string name="descri_o_do_pesadelo2">Descrição do Pesadelo</string>
+    <string name="digite_a_descri_o">Digite a descrição</string>
+    <string name="n_vel_de_terror">Nível de Terror</string>
+    <string name="digite_o_n_vel_de_terror_1_10">Digite o nível de terror (1-10)</string>
+    <string name="tags">Tags</string>
+    <string name="digite_as_tags_separadas_por_v_rgula">Digite as tags separadas por vírgula</string>
+    <string name="inserir_pesadelo2">Inserir Pesadelo</string>
+    <string name="visualizar_pesadelos2">Visualizar Pesadelos</string>
+</resources>

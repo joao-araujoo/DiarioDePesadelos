@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <!-- Imagem do Fantasminha -->
+        <ImageView
+            android:id="@+id/ghostImage"
+            android:layout_width="139dp"
+            android:layout_height="117dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"
+            android:contentDescription="@string/imagem_de_um_fantasma_decorativo2"
+            android:src="@drawable/ic_ghost" />
+
+        <!-- Label e campo para o título do pesadelo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/t_tulo_do_pesadelo2"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:id="@+id/editTextTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/digite_o_t_tulo"
+            android:inputType="textPersonName"
+            android:backgroundTint="#FFFFFF"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:autofillHints="" />
+
+        <!-- Label e campo para a descrição do pesadelo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/descri_o_do_pesadelo2"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:id="@+id/editTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/digite_a_descri_o"
+            android:inputType="textMultiLine"
+            android:backgroundTint="#FFFFFF"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:importantForAutofill="no" />
+
+        <!-- Label e campo para o nível de terror do pesadelo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/n_vel_de_terror"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:id="@+id/editTextNivelTerror"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/digite_o_n_vel_de_terror_1_10"
+            android:inputType="number"
+            android:backgroundTint="#FFFFFF"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:autofillHints="" />
+
+        <!-- Label e campo para as tags do pesadelo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tags"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:id="@+id/editTextTags"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/digite_as_tags_separadas_por_v_rgula"
+            android:inputType="textPersonName"
+            android:backgroundTint="#FFFFFF"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:autofillHints="" />
+
+        <!-- Botão para Inserir o Pesadelo -->
+        <Button
+            android:id="@+id/buttonInsert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#E34534"
+            android:text="@string/inserir_pesadelo2"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <!-- Botão para Visualizar os Pesadelos -->
+        <Button
+            android:id="@+id/buttonView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/visualizar_pesadelos2"
+            android:backgroundTint="#e34534"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</ScrollView>

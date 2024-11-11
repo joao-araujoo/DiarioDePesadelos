@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#1E1E1E"
+    android:padding="12dp"
+    android:layout_marginBottom="8dp">
+
+    <!-- Título do pesadelo -->
+    <TextView
+        android:id="@+id/textViewTitleCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Título do Pesadelo"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+
+    <!-- Descrição do pesadelo -->
+    <TextView
+        android:id="@+id/textViewDescriptionCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrição do pesadelo..."
+        android:textColor="#B0B0B0"
+        android:layout_marginTop="4dp"/>
+
+    <!-- Nível de terror -->
+    <TextView
+        android:id="@+id/textViewNivelTerrorCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nível de Terror: 7"
+        android:textColor="#FF5555"
+        android:layout_marginTop="4dp"/>
+
+    <!-- Tags -->
+
+    <TextView
+        android:id="@+id/textViewTagsCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tags: sonho, assustador"
+        android:textColor="#B0B0B0"
+        android:layout_marginTop="4dp"/>
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:backgroundTint="#E34534"
+        android:text="Excluir"
+        android:textColorLink="#E34534"
+        android:translationX="200dp" />
+
+</LinearLayout>
